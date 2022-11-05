@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.lmkhant.controller.MainController" stylesheets="/styles/main.css">
+    <GridPane AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="100.0">
+
+        <columnConstraints>
+            <ColumnConstraints minWidth="10.0" prefWidth="300.0" />
+            <ColumnConstraints minWidth="10.0" prefWidth="300.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="60.0" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" />
+        </rowConstraints>
+
+       <!-- <Label text="Date" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <TextField fx:id="print_date" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+-->
+        <Label text="Excel file" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <TextField fx:id="excel_path" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+        <Button fx:id="export_pdf" text="Export PDF" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    </GridPane>
+</AnchorPane>

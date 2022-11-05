@@ -1,0 +1,5 @@
+.text-field, .text{
+    -fx-font-family:Pyidaungsu;
+    -fx-font-weight: normal;
+    -fx-font-size : 11pt;
+}
